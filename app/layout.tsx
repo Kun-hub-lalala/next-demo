@@ -15,6 +15,7 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body>
+<<<<<<< HEAD
         <header style={{ padding: "12px 16px", borderBottom: "1px solid #eee" }}>
           <b style={{ color: "red" }}>API-first Demo</b>
           <nav style={{ display: "inline-block", marginLeft: 16 }}>
@@ -33,6 +34,18 @@ export default function RootLayout({
             <Link href="/profile" style={{ color: "red" }}>
               Profile
             </Link>
+=======
+        <header style={{ padding: '12px 16px', borderBottom: '1px solid #eee' }}>
+          <b>API-first Demo</b>
+          <nav style={{ display: 'inline-block', marginLeft: 16 }}>
+            <Link href="/">Home</Link>
+            <span style={{ margin: '0 8px' }}>|</span>
+            <Link href="/users">Users</Link>
+            <span style={{ margin: '0 8px' }}>|</span>
+            <Link href="/posts">Posts</Link>
+            <span style={{ margin: '0 8px' }}>|</span>
+            <Link href="/teem">teem</Link>
+>>>>>>> 4cbea778ade49a0132acd1dd864666c20c950a5e
           </nav>
         </header>
 
